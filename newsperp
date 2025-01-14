@@ -2,8 +2,9 @@
 ! description: only bloomberg ex paywall sources
 ! public: false
 ! author: wisenai
-$boost=100,site=bloomberglaw.com
-$boost=80,site=news.bloomberglaw.com
-$boost=60,site=news.bloombergtax.com
-$boost=40,site=news.bgov.com
-$boost=20,site=bloomberg.com
+$discard
+$boost=5,site=bloomberglaw.com
+$boost=4,site=news.bloomberglaw.com
+$boost=3,site=news.bloombergtax.com
+$boost=2,site=news.bgov.com
+$boost=1,site=bloomberg.com
