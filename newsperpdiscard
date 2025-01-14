@@ -1,0 +1,12 @@
+! name: newsperpdiscard
+! description: only bloomberg ex paywall sources (discards others)
+! public: false
+! author: wisenai
+
+$discard
+
+$boost=4,site=bloomberglaw.com
+$boost=3,site=news.bloomberglaw.com
+$boost=3,site=news.bloombergtax.com
+$boost=3,site=news.bgov.com
+$boost=2,site=bloomberg.com
